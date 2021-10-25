@@ -1,3 +1,0 @@
-/home/whoselow/Documents/vscode/EyeSeeYouV3/build/CMakeFiles/rebuild_cache.dir
-/home/whoselow/Documents/vscode/EyeSeeYouV3/build/CMakeFiles/edit_cache.dir
-/home/whoselow/Documents/vscode/EyeSeeYouV3/build/CMakeFiles/EyeSeeYou.dir
