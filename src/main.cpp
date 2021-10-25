@@ -30,7 +30,7 @@ int distBetween(eyePoint a, eyePoint b);
 
 int IMG_W = 640;
 int IMG_H = 480;
-int PUPIL_S = 120;
+int PUPIL_S = 180;
 int FPS = 60;
 
 

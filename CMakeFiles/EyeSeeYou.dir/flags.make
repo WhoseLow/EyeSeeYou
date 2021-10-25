@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/usr/include/SDL2 -isystem /usr/include/opencv4
 
-CXX_FLAGS = 
+CXX_FLAGS = -std=c++11
 
