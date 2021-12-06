@@ -1,11 +1,26 @@
 # EyeSeeYou
-Art project for a friend of mine. Uses opencv to track faces and draw an eyeball to be staring at them. So far it is quite quick and dirty, and I want to say I'll get around to cleaning it up but that's probably not true. I'm still proud of it as it's the first large-ish project I've taken on after nothing but an intro to c++ course.
+Project for a friend which displays an eyeball tracking faces within the frame of a camera. It's very hacky and janky but I was working on it and the logistics of setting it up in a real space up until the deadline so I didn't have time to finish. It would be cool if I went and completed/cleaned it up later but I most likely won't.
 
-## Dependencies
-- opencv
-- sdl2
+## Building youself
+#### Dependancies
+- a C++ compiler
 - cmake
+- SDL2
+- opencv4
 
-## Binaries
-- Binary compiled for my machine is included in the repository
-- haven't had any luck compiling for windows so far
+Arch Linux
+```
+yay -Sy gcc cmake opencv sdl2 git
+```
+
+### Install/build
+```
+git clone https://github.com/WhoseLow/EyeSeeYou.git
+cd EyeSeeYou
+cmake .
+```
+### Run
+(from source dir)
+```
+./EyeSeeYou
+```
